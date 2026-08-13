@@ -1,8 +1,4 @@
-let student = {
-  name: "Sara",
-  age: 19,
-  grade: "A"
-};
-
-console.log(student.name);
-console.log(student.age);
+let button= document.getElementById("submitBtn");
+button.addEventListener("click",function(){
+  console.log("The button is cliicked")
+});
