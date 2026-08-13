@@ -1,5 +1,6 @@
-let names = ["Ali", "Sara", "Mona"];
 
-for (let i = 0; i < names.length; i++) {
-  console.log(names[i]);
-}
+localStorage.setItem("age", 20);
+
+
+let age = localStorage.getItem("age");
+console.log(typeof age);
