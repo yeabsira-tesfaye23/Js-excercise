@@ -15,7 +15,7 @@ app.get("/students", (req, res) => {
 });
 res.status(200).json(students);
 app.listen(3000, () => {
-    console.log("Server running");
+    console.log("The Server running");
 });
 
 
